@@ -1632,8 +1632,9 @@ h6.title {
     -webkit-box-flex: 0;
     -webkit-flex: 0 1 45%;
     -ms-flex: 0 1 45%;
-    flex: 0 1 45%
+    flex: 0 1 49%
 }
+
 
 .social {
     position: fixed;
@@ -2281,7 +2282,7 @@ h6.title {
         width: 100%;
         margin-left: 20%;
     }
-    }
+    
     .hero .flex-container--space-between {
         height: 200px;
     }
@@ -2436,7 +2437,7 @@ h6.title {
         -webkit-box-flex: 0;
         -webkit-flex: 0 1 100%;
         -ms-flex: 0 1 100%;
-        flex: 0 1 100%;
+        flex: 0 1 49%;
         margin-top: 50px
     }
 
@@ -2486,7 +2487,11 @@ h6.title {
 }
 
 @media screen and (max-width: 574px) {
-   
+
+    .contact__side {
+        flex: 0 1 100% !important;
+    }
+
     .flex-container__part,section {
         margin-top: 40px
     }
