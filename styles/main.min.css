@@ -1868,7 +1868,7 @@ h6.title {
 	position:relative;
 	border-color:white;
 	text-decoration:none;
-	transition:all .3s ease-out;
+    transition:all .3s ease-out;
 }
 .to-top:before{
 	content: '▲';
@@ -1888,10 +1888,10 @@ h6.title {
 }
 .to-top:hover{
 	color:#1127ff;
-	border-color:#1127ff;
+    border-color:#1127ff;
 }
 .to-top:hover:before{
-	transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 
 .contact-anchor {
