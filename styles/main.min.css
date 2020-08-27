@@ -286,7 +286,7 @@ body.is-static {
 }
 
 body::before {
-    content: 'AveLeads';
+    content: 'aveleads';
     position: fixed;
     pointer-events: none;   
     left: 50%;
@@ -2266,7 +2266,9 @@ h6.title {
     .progress {
         height:8px
     }
-
+    .flex-container--space-between {
+        height: 200px;
+    }
     .text-box {
         display: none
     }
