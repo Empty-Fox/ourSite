@@ -286,22 +286,23 @@ body.is-static {
 }
 
 body::before {
-    content: '';
-    background: url(../img/background-logo.svg) center center no-repeat;
+    content: 'AveLeads';
     position: fixed;
-    pointer-events: none;
-    width: 90%;
+    pointer-events: none;   
     left: 50%;
-    top: 50vh;
+    top: 50%;
     -webkit-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     -webkit-background-size: contain;
     background-size: contain;
-    -webkit-filter: brightness(3);
-    filter: brightness(3);
-    height: 100vh;
-    z-index: -1
+    -webkit-filter: brightness(9);
+    filter: brightness(9);
+    z-index: -1;
+    font-size: 9em;
+    color: #fff;
+    opacity: .4;
+}
 }
 
 body.error-page::before {
@@ -321,7 +322,11 @@ section {
     -o-transition: transform .8s;
     transition: transform .8s,-webkit-transform .8s
 }
-
+.lazyloaded {
+    font: 2em Arial, sans-serif;
+    text-shadow: rgb(0, 0, 0) 0 0 2px;
+    color:#f5f5f5;
+}
 .progress {
     background: -webkit-gradient(linear,left top,right top,from(#1127ff),color-stop(0,transparent));
     background: -webkit-linear-gradient(left,#1127ff var(--scroll),transparent 0);
@@ -329,7 +334,7 @@ section {
     background: linear-gradient(to right,#1127ff var(--scroll),transparent 0);
     position: fixed;
     width: 100%;
-    height: 15px;
+    height: 8px;
     z-index: 99;
     top: 0;
     left: 0
@@ -455,7 +460,6 @@ section {
     font-family: Closer-ExtraBold,sans-serif;
     color: #333;
     line-height: 1.2;
-    max-width: 765px;
     font-size: 1.5rem
 }
 
@@ -470,14 +474,25 @@ section {
 
 .title--big {
     margin-bottom: 75px;
-    font-size: 4rem
+    font-size: 4rem;
+    width: 100% !important;
+    text-align: center;
 }
-
+h2.title--big {
+    text-align: left;
+    padding-left: 40px;
+}
+h6.title {
+    font-family: Closer-ExtraBold,sans-serif;
+    color: #1127ff;
+    line-height: 1.2;
+    font-size: 3rem;
+    padding: 50px;
+}
 .title--hero {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-    max-width: 530px;
     display: inline;
     margin-bottom: 0
 }
@@ -2071,9 +2086,7 @@ section {
 }
 
 @media screen and (min-width: 575px) {
-    .title--hero {
-        min-width:365px
-    }
+ 
 
     .hero__counters-item {
         font-size: 9.9rem
@@ -2158,7 +2171,8 @@ section {
 
     .title--big {
         font-size: 3rem;
-        margin-bottom: 40px
+        margin-bottom: 40px;
+        text-align: center;
     }
 
     .footer {
@@ -2457,10 +2471,7 @@ section {
 }
 
 @media screen and (max-width: 574px) {
-    body::before {
-        display:none
-    }
-
+   
     .flex-container__part,section {
         margin-top: 40px
     }
