@@ -2541,9 +2541,9 @@ h6.title {
     .title--big {
         font-size: 2em;
     }
-    .button--form:disabled {       
-        width: 50%;
-        margin-left: 25%;
+    .button--form:disabled {
+        width: 70%;
+        margin-left: 15%;
     }
     .lazyloaded {
         font: 1.4em Arial, sans-serif;
@@ -2556,8 +2556,8 @@ h6.title {
         width: 100%;
     }
     .hero__link-wrapper {
-        width: 50%;
-        margin-left: 25%;
+        width: 60%;
+        margin-left: 20%;
     }
     h2.title--big {
         text-align: left;
