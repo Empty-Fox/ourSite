@@ -1860,6 +1860,40 @@ h6.title {
     margin-top: 5px
 }
 
+
+.to-top{
+	color:white;
+	padding-top:1.8em;
+	display:inline-block;/* or block */
+	position:relative;
+	border-color:white;
+	text-decoration:none;
+	transition:all .3s ease-out;
+}
+.to-top:before{
+	content: '▲';
+    font-size: 2em;
+    position: absolute;
+    top: 0;
+    margin-left: -35px;
+    border-radius: 10em;
+    width: 70px;
+    height: 1.4em;
+    line-height: 1.3em;
+    border-color: inherit;
+    transition: transform .5s ease-in;
+}
+#arrowTop {
+    display: none;
+}
+.to-top:hover{
+	color:#1127ff;
+	border-color:#1127ff;
+}
+.to-top:hover:before{
+	transform: rotate(360deg);
+}
+
 .contact-anchor {
     position: fixed;
     width: 90px;
@@ -1870,8 +1904,7 @@ h6.title {
     font-size: 1.8rem;
     display: block;
     font-weight: 900;
-    color: #333;
-    background: url(../img/envelope-circle.svg) center no-repeat;
+    color: #1127ff;
     -webkit-background-size: cover;
     background-size: cover;
     right: calc((100% - 1340px)/ 2);

@@ -62,11 +62,12 @@
                     </div>                   
                 </div>
                 <div class="hero__link-wrapper">
-                    <a href="" target="_blank" class="link link--hero">Contact Us</a>              
+                    <a href="" target="_blank" class="link link--hero" >Contact Us</a>              
                 </div>
             </section>
 
-            <a href="#" class="contact-anchor js-modal-call"></a>
+       
+            <a href="#" class="to-top contact-anchor " id="arrowTop" onclick="topFunction()"></a>
 
             <section class="introduction js-visible is-visible" id="about">
                 <h2 class="title title--big">About Us</h2>
@@ -207,6 +208,30 @@
 
     <div class="modal-bg js-modal-bg"></div>
 
+
+    <script>
+
+    var mybutton = document.getElementById("arrowTop");
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+    }
+
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+
+</script>
+
+      </script>
+
+      
     <script src="js/main.min.js"></script>
 </body>
 
