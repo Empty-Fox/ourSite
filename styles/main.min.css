@@ -328,10 +328,10 @@ section {
     color:#f5f5f5;
 }
 .progress {
-    background: -webkit-gradient(linear,left top,right top,from(#1127ff),color-stop(0,transparent));
-    background: -webkit-linear-gradient(left,#1127ff var(--scroll),transparent 0);
-    background: -o-linear-gradient(left,#1127ff var(--scroll),transparent 0);
-    background: linear-gradient(to right,#1127ff var(--scroll),transparent 0);
+    background: -webkit-gradient(linear,left top,right top,from(#067a0f),color-stop(0,transparent));
+    background: -webkit-linear-gradient(left,#067a0f var(--scroll),transparent 0);
+    background: -o-linear-gradient(left,#067a0f var(--scroll),transparent 0);
+    background: linear-gradient(to right,#067a0f var(--scroll),transparent 0);
     position: fixed;
     width: 100%;
     height: 8px;
@@ -464,12 +464,12 @@ section {
 }
 
 .title strong {
-    color: #1127ff;
+    color: #067a0f;
     display: block
 }
 
 .title span {
-    color: #1127ff
+    color: #067a0f
 }
 
 .title--big {
@@ -484,7 +484,7 @@ h2.title--big {
 }
 h6.title {
     font-family: Closer-ExtraBold,sans-serif;
-    color: #1127ff;
+    color: #067a0f;
     line-height: 1.2;
     font-size: 3rem;
     padding: 50px;
@@ -498,11 +498,11 @@ h6.title {
 }
 
 .title--glow {
-    text-shadow: 0 3px 5px #1127ff
+    text-shadow: 0 3px 5px #067a0f
 }
 
 .title--green {
-    color: #1127ff
+    color: #067a0f
 }
 
 .title--package-hover {
@@ -625,15 +625,15 @@ h6.title {
 }
 
 .navigation__link:hover {
-    -webkit-filter: drop-shadow(1px 1px 1px #1127ff);
-    filter: drop-shadow(1px 1px 1px #1127ff)
+    -webkit-filter: drop-shadow(1px 1px 1px #067a0f);
+    filter: drop-shadow(1px 1px 1px #067a0f)
 }
 
 .button {
     -webkit-box-shadow: none;
     box-shadow: none;
     border: 0;
-    background: #1127ff;
+    background: #067a0f;
     padding: 20px 34px;
     font-family: Closer-ExtraBold,sans-serif;
     font-size: 16px;
@@ -699,7 +699,7 @@ h6.title {
 }
 
 .link:hover {
-    color: #1127ff
+    color: #067a0f
 }
 
 .link::before {
@@ -722,7 +722,7 @@ h6.title {
 }
 
 .link--hero {
-    background: #1127ff;
+    background: #067a0f;
     padding-right: 25px;
     padding-left: 0;
     width: 200px;
@@ -875,7 +875,7 @@ h6.title {
 }
 
 .hero__counters-item {
-    color: #1127ff;
+    color: #067a0f;
     line-height: .87;
     letter-spacing: -15px;
     font-size: 8rem
@@ -1103,7 +1103,7 @@ h6.title {
 }
 
 .package__hover {
-    border: 2px solid #1127ff;
+    border: 2px solid #067a0f;
     position: absolute;
     opacity: 0;
     pointer-events: none;
@@ -1343,7 +1343,7 @@ h6.title {
 }
 
 .team-member.team-member--emphasized {
-    border: 3px solid #1127ff
+    border: 3px solid #067a0f
 }
 
 .team-member__hover {
@@ -1383,7 +1383,7 @@ h6.title {
 .post {
     position: relative;
     color: #fff;
-    border-top: 10px solid #1127ff;
+    border-top: 10px solid #067a0f;
     height: 225px;
     display: block;
     margin-bottom: 20px
@@ -1419,7 +1419,7 @@ h6.title {
     top: 0;
     height: 100%;
     width: 44%;
-    background: #1127ff;
+    background: #067a0f;
     z-index: 2
 }
 
@@ -1547,7 +1547,7 @@ h6.title {
     content: '';
     position: absolute;
     bottom: -10px;
-    background: #1127ff;
+    background: #067a0f;
     height: 6px;
     width: 100%
 }
@@ -1555,7 +1555,7 @@ h6.title {
 .post__date--announcement {
     position: absolute;
     z-index: 2;
-    background: #1127ff;
+    background: #067a0f;
     font-size: 2.6rem;
     font-family: Closer-ExtraBold,sans-serif;
     color: #333;
@@ -1607,7 +1607,7 @@ h6.title {
 }
 
 .contacts__item:hover {
-    color: #1127ff
+    color: #067a0f
 }
 
 .contacts__item--location::before {
@@ -1668,8 +1668,8 @@ h6.title {
 }
 
 .social__link:hover {
-    -webkit-filter: drop-shadow(1px 1px 1px #1127ff);
-    filter: drop-shadow(1px 1px 1px #1127ff)
+    -webkit-filter: drop-shadow(1px 1px 1px #067a0f);
+    filter: drop-shadow(1px 1px 1px #067a0f)
 }
 
 .social__link--instagram {
@@ -1700,8 +1700,8 @@ h6.title {
 }
 
 .logo:hover {
-    -webkit-filter: drop-shadow(1px 1px 1px #1127ff);
-    filter: drop-shadow(1px 1px 1px #1127ff)
+    -webkit-filter: drop-shadow(1px 1px 1px #067a0f);
+    filter: drop-shadow(1px 1px 1px #067a0f)
 }
 
 .form {
@@ -1726,12 +1726,12 @@ h6.title {
 }
 
 .form__input.is-valid {
-    border: solid #1127ff;
+    border: solid #067a0f;
     border-width: 0 0 1px
 }
 
 .form__input:active,.form__input:focus {
-    border: solid #1127ff;
+    border: solid #067a0f;
     border-width: 0 0 1px
 }
 
@@ -1765,7 +1765,7 @@ h6.title {
 .article {
     display: block;
     width: 100%;
-    border-right: 14px solid #1127ff;
+    border-right: 14px solid #067a0f;
     height: 215px;
     background: #fff;
     margin-top: 40px
@@ -1887,8 +1887,8 @@ h6.title {
     display: none;
 }
 .to-top:hover{
-	color:#1127ff;
-    border-color:#1127ff;
+	color:#067a0f;
+    border-color:#067a0f;
 }
 .to-top:hover:before{
     transform: rotate(360deg);
@@ -1904,23 +1904,23 @@ h6.title {
     font-size: 1.8rem;
     display: block;
     font-weight: 900;
-    color: #1127ff;
+    color: #067a0f;
     -webkit-background-size: cover;
     background-size: cover;
     right: calc((100% - 1340px)/ 2);
     bottom: 110px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    -webkit-box-shadow: 0 8px 20px #1129ff7e;
-    box-shadow: 0 8px 20px #1129ff7e;
+    -webkit-box-shadow: 0 8px 20px #067a1080;
+    box-shadow: 0 8px 20px #067a1075;
     -webkit-transition: .2s;
     -o-transition: .2s;
     transition: .2s
 }
 
 .contact-anchor:hover {
-    -webkit-box-shadow: 0 8px 20px #1127ff;
-    box-shadow: 0 8px 20px #1127ff;
+    -webkit-box-shadow: 0 8px 20px #067a0f;
+    box-shadow: 0 8px 20px #067a0f;
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05)
@@ -2292,7 +2292,7 @@ h6.title {
     .article {
         height: auto;
         border: none;
-        border-top: 14px solid #1127ff
+        border-top: 14px solid #067a0f
     }
 }
 
