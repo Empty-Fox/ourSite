@@ -6,11 +6,18 @@
         <meta charset="utf-8">	
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <link rel="stylesheet" href="styles/main.min.css">
+       
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+      />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
     </head>
 
 <body class="home page-template page-template-main-page page-template-main-page-php page page-id-2 wp-embed-responsive singular image-filters-enabled is-couters-started is-loaded">
     
-    <header class="header container">
+    <header class="header container" >
         <a href="" class="logo">
             <p class="lazyloaded"> <span style="font-weight: bolder; color:#067a0f; text-shadow: rgb(255, 255, 255) 0 0 2px; ">ave</span>leads </p>
         </a>
@@ -55,14 +62,21 @@
 
         <div class="container">
             <section class="hero js-visible is-visible">
-                <div class="flex-container flex-container--hero flex-container--space-between">
-                    <h1 id="js-title" class="title title--big title--hero"></h1>
+                <div class="flex-container flex-container--hero flex-container--space-between" >
+                    <h1 class="title title--big1 title--hero" style="font-family: 'Playfair Display', serif; text-transform:uppercase;">media buying agency</h1>
+                    <h2 id="" class="title title--big title--hero" style="font-family: 'Playfair Display', serif; text-transform:uppercase;">
+                        We do <strong>leads </strong>who make <strong>real sales</strong>
+                       
+                    </h2>
+                    <p class="third_header">
+                        We analyze, optimize and send only <strong>quality traffic</strong>
+                    </p>
                     <span class="typed-cursor typed-cursor--blink">|</span>
                     <div id="js-title" hidden="" class="text-box" style="display: none;">
                     </div>                   
                 </div>
                 <div class="hero__link-wrapper">
-                    <a href="" target="_blank" class="link link--hero" >Contact Us</a>              
+                    <a href="" target="_blank" class="link link--hero " >Contact us</a>              
                 </div>
             </section>
 
@@ -70,20 +84,21 @@
             <a href="#" class="to-top contact-anchor " id="arrowTop" onclick="topFunction()"></a>
 
             <section class="introduction js-visible is-visible" id="about">
-                <h2 class="title title--big">About Us</h2>
+                <h2 class="title title--big">About us</h2>
                 <div class="flex-container flex-container--space-between">
-                    <div class="flex-container__part">
+                    <div class="flex-container__part wow animate__animated animate__backInLeft">
                         <p class="title title--small">Who we are?</p>
                         <ul class="list">
+
                             <li class="list__item">
-                                aveleads is a team of online marketers highly focused on performance-based media buying for over five years.
+                                Aveleads is a team of media buyers highly focused on performance-based traffic.
                             </li>
                             <li class="list__item">
-                                We're full cycle in-house company. It means we create, design, develop and deploy strategies and ways of communication with the target audience to bring more customers to our partners.
+                                We're full cycle in-house company. We develop strategy, create creativity and implement technical solutions to direct more targeted customers to our partners.
                             </li>                           
                         </ul>
                     </div>
-                    <div class="flex-container__part">
+                    <div class="flex-container__part wow animate__animated animate__backInRight">
                         <p class="title">What we do?</p>
                         <ul class="list">
                             <li class="list__item">
@@ -93,7 +108,7 @@
                                 We promote brands, services, and products to maximize our Advertisers popularity at the target audience.
                             </li>
                             <li class="list__item">
-                                We deliver leads from Social Media, Google Adwords, Google Display, Pops, Native, Traffic networks.
+                                We deliver leads from Social Media, Google Ads, Traffic networks.
                             </li>                            
                         </ul>
                     </div>
@@ -103,10 +118,14 @@
             <section class="packages js-visible" id="partners">
                 <h2 class="title title--big">For Partners</h2>
                 <div class="package">
-                    <div class="flex-container">
-                        <div class="package__side">
-                            <p class="title title--big title--package title--glow">Publishers</p>
-                            <div class="package__hover">
+                    <div class="flex-container wrapper">
+                        <div class=" package__side wrapper">
+                            <div class="card">
+                              <div class="front  title--big title--glow front">
+                                Publishers
+                              </div>
+                              <div class="back package__hover">
+                              
                                 <p class="title title--green title--package-hover">For publishers:</p>                               
                                 <ul class="list">
                                     <li class="list__item">We buy traffic on CPM / CPC</li>
@@ -114,28 +133,35 @@
                                     <li class="list__item">We are direct buyers</li>
                                     <li class="list__item">You can meet us in person</li>
                                 </ul>
+                                
+                                </div>
                             </div>
-                        </div>
-                        <div class="package__side">
-                            <p class="title title--big title--package title--glow">Advertisers</p>
-                            <div class="package__hover">                               
-                                <p class="title title--green title--package-hover">For advertisers:</p>
+                          </div>
+                          <div class=" package__side wrapper">
+                            <div class="card">
+                              <div class="front  title--big title--glow front">
+                                Advertisers
+                              </div>
+                              <div class="back package__hover ">
+                              
+                                <p class="title title--green title--package-hover">For advertisers:</p>                               
                                 <ul class="list">
                                     <li class="list__item">We deliver quality leads based on target audience criteria</li>
                                     <li class="list__item"> Working on CPA / CPL (SOI and DOI)</li>
                                     <li class="list__item">Our strongest markets are: Europe & Tier 1</li>
                                     <li class="list__item"> Pleased to assist in strategy development</li>
-                                </ul>
+                                </ul>                                
+                                </div>
                             </div>
-                        </div>
+                          </div>
                     </div>
                 </div>            
             </section>   
 
             <section class="contacts js-visible" id="contacts">
                 <div class="flex-container flex-container--space-between">
-                    <div class="contact__side">
-                        <h6 class="title">Leave a request for a call or consultation from our expert</h6>                       
+                    <div class="contact__side wow animate__animated animate__zoomIn">
+                        <h6 class="title">Contact us</h6>                       
                     </div>
                     <div class="contact__side">                       
                         <form class="form js-form" id="form">
@@ -231,10 +257,14 @@
 
 </script>
 
-      </script>
+      
 
       
     <script src="js/main.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
 </body>
 
 </html>
