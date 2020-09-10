@@ -1,3 +1,4 @@
+  
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,6 +9,13 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="styles/main.min.css">
+
+
+
+    <link href="https://pagecdn.io/lib/easyfonts/phetsarath.css" rel="stylesheet" />
+    <link href="https://pagecdn.io/lib/easyfonts/petrona.css" rel="stylesheet" />
+
+
 
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
@@ -22,7 +30,7 @@
     <header class="header container">
         <a href="" class="logo">
             <p class="lazyloaded"> <span
-                    style="font-weight: bolder; color:#067a0f; text-shadow: rgb(255, 255, 255) 0 0 2px; ">ave</span>leads
+                    style="font-weight: bolder; color:#067a0f; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.49); ">ave</span>leads
             </p>
         </a>
 
@@ -44,7 +52,8 @@
         </div>
     </header>
 
-    <div class="social">
+    <div class="social" >
+        <hr>
         <a href="" target="_blank">
             <svg class="social__link social__link--instagram">
                 <path
@@ -71,6 +80,7 @@
                     d="M22.228 0H1.773C.793 0 0 .77 0 1.72v20.56C0 23.23.794 24 1.773 24h20.455c.979 0 1.772-.77 1.772-1.72V1.72C24 .77 23.207 0 22.228 0zM7.276 20.09H3.65V9.254h3.626V20.09zM5.463 7.774H5.44c-1.216 0-2.004-.832-2.004-1.873 0-1.062.811-1.871 2.051-1.871 1.24 0 2.003.808 2.027 1.87 0 1.042-.786 1.874-2.05 1.874zM20.348 20.09h-3.625v-5.798c0-1.457-.526-2.45-1.837-2.45-1.002 0-1.598.67-1.86 1.317-.096.232-.12.555-.12.878v6.052H9.28s.048-9.819 0-10.835h3.625v1.536c.482-.738 1.342-1.791 3.267-1.791 2.386 0 4.175 1.548 4.175 4.877v6.214zm-7.465-9.266a.56.56 0 01.023-.034v.034h-.023z"
                     fill="#333" /></svg>
         </a>
+        <hr>
     </div>
 
     <div class="progress" style="--scroll:19.2888%;"></div>
@@ -78,19 +88,23 @@
     <main>
 
         <div class="container">
-            <section class="hero js-visible is-visible">
-                <div class="flex-container flex-container--hero flex-container--space-between">
+            <section class="hero js-visible is-visible" style="padding: 0 20px;">
+                <div class=" font-petrona w400 flex-container flex-container--hero flex-container--space-between">
                     <h1 class="title title--big1 title--hero">
                         Media Buying Agency
                     </h1>
-                    <h2 id="" class="title title--big title--hero">
-                        We <strong> power </strong> your success and <strong>expand </strong> your brand
+                    <h2 id="" class="font-petrona w400  title title--big title--hero">
+                        We <strong> power </strong> your success <br> and <strong>expand </strong> your brand
 
                     </h2>
-                    <p class="third_header">
+                    <p class="font-phetsarath w800">
+                        <span style="
+                        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.49);">ave</span>leads
+                    </p>
+                    <p class="font-phetsarath w400 third_header" >
                         We are responsible for leads that deliver results
                     </p>
-                    <span class="typed-cursor typed-cursor--blink">|</span>
+                    
                     <div id="js-title" hidden="" class="text-box" style="display: none;">
                     </div>
                 </div>
@@ -102,166 +116,294 @@
 
             <a href="#" class="to-top contact-anchor " id="arrowTop" onclick="topFunction()"></a>
 
-            <!-- <section class="introduction js-visible is-visible" id="about">
-                <h2 class="title title--big">About us</h2>
-                <div class="flex-container flex-container--space-between">
-                    <div class="flex-container__part wow animate__animated animate__backInLeft">
-                        <p class="title title--small">Who we are?</p>
-                        <ul class="list">
-
-                            <li class="list__item">
-                                Aveleads is a team of media buyers highly focused on performance-based traffic.
-                            </li>
-                            <li class="list__item">
-                                We're full cycle in-house company. We develop strategy, create creativity and implement technical solutions to direct more targeted customers to our partners.
-                            </li>                           
-                        </ul>
-                    </div>
-                    <div class="flex-container__part wow animate__animated animate__backInRight">
-                        <p class="title">What we do?</p>
-                        <ul class="list">
-                            <li class="list__item">
-                                Our Intelligence team provides overall audit and design of a product, strategy, promotion, technology, analytics, and segmentation.
-                            </li>
-                            <li class="list__item">
-                                We promote brands, services, and products to maximize our Advertisers popularity at the target audience.
-                            </li>
-                            <li class="list__item">
-                                We deliver leads from Social Media, Google Ads, Traffic networks.
-                            </li>                            
-                        </ul>
-                    </div>
-                </div>
-            </section>          -->
-
-            <section class="introduction js-visible is-visible" id="about">
-                <h4 class="todoTitle wow animate__animated animate__fadeInUp">
+            <section class="introduction js-visible is-visible" id="about" style="width:100%; margin-top:-5vh; height:720px; overflow: hidden; ">
+                <video class="video" loop="loop" autoplay="" muted="" style="position: absolute;margin-top: -200px;">
+                    <source src="img/Mountain - 34608.mp4" type="video/mp4" />
+                </video>
+                <div style="width: 90%; height: 90%; background-color: rgba(0, 0, 0, 0.37); position: absolute; margin-left: 5%; margin-top:2%;"></div>
+             
+                
+                <h4 class="font-phetsarath w400 todoTitle wow animate__animated animate__fadeInUp" style="
+                color:white;
+                padding-left: 10%; 
+                padding-top:3%">
                     About Us
+                    
                 </h4>
-                <div class="flex-container flex-container--space-between">
+                    <div style="
+                    width: 183px;
+                    height: 0px;
+                    margin-left: 10%;
+                    margin-top:-20px;
+                    border: 1px solid #067A0F;
+                    transform: rotate(-0.31deg);
+                    "></div>
+                
+                <div class="container_about" style="position: absolute;">
+                   
+                    <div class="item_about">
+                        
+                        <p style="font-style: normal;
+                        font-weight: normal;
+                        font-size: 24px;
+                        line-height: 24px;                                             
+                        color: #FFFFFF;                        
+                        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        padding-left: 80px;
+                        ">
+                            
+                           
+                        <span style="color:#067A0F;
+                        text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.49);"> 
+                            Ave</span>leads is a team of media professionals who continuously push the boundaries of perfomance-based traffic optimization.<br><br>
+                        
 
-                    <div class="flex-container__part wow animate__animated animate__backInLeft">
-                        <div class="container">
-                            <img src="img/aboutusicn.png" alt="About Us | todoMobile">
-                        </div>
+                        We aim to target the right user at the right time and place.<br><br>
+                        We proactively work to find the unique environment for your offers.<br><br>
+                        
+                        
+                        <span style="color:#067A0F;
+                         text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.49);"> Ave </span>leads team breaks down growth barriers to build strong market leaders by providing an exhaustive audit and design of a product.<br><br>
+                        
+                        
+                        We strive to make the most impactful strategic decisions to maximize our Advertisers popularity at the target audience.<br><br>
+                        
+                        We acquire high-quality media and forward best leads from Social Media, Google Ads, Traffic networks.<br><br>
+                        
+                        We build true partnerships because we value transparency and true growth<br><br>
+ 
 
-
-                    </div>
-
-
-                    <div class="flex-container__part wow animate__animated animate__backInRight">
-                        <div class="container">
-                        </div>
-                        <p>
-                            <strong> <span>What sets us apart? </span></strong>
-                            <br><br>
-                            <span style="font-weight:700;"><span> Aveleads</span> is a team of
-                                media professionals who continuously push the boundaries of perfomance-based traffic
-                                optimization.
-                            </span>
-                        <ul class="list">
-                            <li class="list__item">We aim to target the right user at the right time and place. </li>
-                            <li class="list__item">We proactively work to find the unique environment for your offers.
-                            </li>
-                            <li class="list__item">Aveleads team breaks down growth barriers to build strong market
-                                leaders by providing an exhaustive audit and design of a product. </li>
-                            <li class="list__item">We strive to make the most impactful strategic decisions to maximize
-                                our Advertisers popularity at the target audience. </li>
-                            <li class="list__item">We acquire high-quality media and forward best leads from Social
-                                Media, Google Ads, Traffic networks.</li>
-                        </ul>
-                        <br>
-                        <strong>We build true partnerships because we value
-                            transparency and true growth</strong>
                         </p>
                     </div>
+                     <hr style="margin-left: 1%;">  
+                    <div class="item_about font-phetsarath w400" style="padding-top: 10%; width: 40%;padding-left: 0;">
+                        <p>
+                            <span  style="font-style: normal;
+                            font-weight: bold;
+                            font-size: 72px;
+                            line-height: 76px;
+                            text-transform: uppercase;
+                            
+                            color: #FFFFFF;
+                            ">What</span>
+                             <span style="font-style: normal;
+                             font-weight: bold;
+                             font-size: 48px;
+                             line-height: 105.01%;                       
+                             text-transform: uppercase;
+                             
+                             color: #FFFFFF;">sets </span>
 
-                </div>
-
+                        </p>
+                   
+                         <span style="font-style: normal;
+                         font-weight: bold;
+                         font-size: 48px;
+                         line-height: 105.01%;
+                         /* or 50px */
+                         
+                         text-transform: uppercase;
+                         
+                         color: #067A0F;">us 
+                        </span>
+                        
+                        <span style="font-style: normal;
+                        font-weight: bold;
+                        font-size: 72px;
+                        line-height: 76px;
+                        text-transform: uppercase;
+                        
+                        color: #FFFFFF;">apart?</span>
+                    </div>   
+                         
+                  </div>
             </section>
 
             
-            <section class="packages js-visible" id="partners">
-                <h4 class="todoTitle wow animate__animated animate__fadeInUp">
-                    For Partners
+            <section class="packages js-visible" id="partners"  style="padding: 0 20px; background-color: #E5E5E5;">
+                <h4 class="font-phetsarath w400 todoTitle wow animate__animated animate__fadeInUp" style="
+                color:#000000;
+                padding-left: 10%; 
+                padding-top:3%;
+                text-shadow: none;">
+                     For Partners
                 </h4>
-                <!-- <h2 class="title title--big">For Partners</h2> -->
-                <div class="package">
-                    <div class="flex-container wrapper">
-                        <div class=" package__side wrapper">
-                            <div class="card">
-                                <div class="front  title--big title--glow front">
-                                    Publishers
-                                </div>
-                                <div class="back package__hover">
+                <div style="
+                    width: 260px;
+                    height: 0px;
+                    margin-left: 10%;
+                    margin-top:-20px;
+                    border: 1px solid #067A0F;
+                    transform: rotate(-0.31deg);
+                    "></div>
+               
+               <div class="container_parthners">
+                   
+                <div class="item_parthners">
+                    
+                    <p class="font-phetsarath w400" style="font-style: normal;
+                    font-weight: bold;
+                    font-size: 72px;
+                    line-height: 58px;
+                    text-transform: uppercase;                    
+                    color: #000000;
+                    ">
+                        
+                   F<span style="font-style: normal;
+                   font-weight: bold;
+                   font-size: 48px;
+                   line-height: 80.01%;                  
+                   
+                   text-transform: uppercase;
+                   
+                   color: #000000;">o</span>R  
+                    </p>
+                    <p class="font-phetsarath w400" style="font-style: normal;
+                    font-weight: bold;
+                    font-size: 72px;
+                    line-height: 58px;
+                    text-transform: uppercase;
+                    
+                    color: #067A0F;">
+                        advertisers
+                    </p>
+                    <hr style="
+                    width: 110px;
+                       height: 0px;
+                       border: 1px solid #067A0F;
+                       transform: rotate(90deg);
+                       margin-top: 20%;
+                       margin-left: -7%;"
+                   
+                   >
+                   <p style="font-style: normal;
+                   font-weight: normal;
+                   font-size: 18px;
+                   line-height: 26px;
+                   margin-top: -10%;
+                   padding-left: 30px;
+                   color: #000000;">
+                      Our focus is high quality leads<br>
+                      We work on CPA/ CPL (SOI and DOI) <br>
+                      Our top GEOs are Europe Tier1<br>
+                      Always ready to assist for mutual development<br>
 
-                                    <p class="title title--green title--package-hover">For publishers:</p>
-                                    <ul class="list">
-                                        <li class="list__item">Maximize your revenues with experts</li>
-                                        <li class="list__item">We work on CPM / CPC models</li>
-                                        <li class="list__item">We can buy traffic on regular basis</li>
-                                        <li class="list__item">We are interested in true collaboration that elevate each
-                                            party</li>
-                                        <li class="list__item">We look for different kind of traffic for various
-                                            verticals</li>
-                                        <li class="list__item">Work with direct buyers</li>
-                                    </ul>
+                   </p>
 
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" package__side wrapper">
-                            <div class="card">
-                                <div class="front  title--big title--glow front">
-                                    Advertisers
-                                </div>
-                                <div class="back package__hover ">
-
-                                    <p class="title title--green title--package-hover">For advertisers:</p>
-                                    <ul class="list">
-                                        <li class="list__item">Our focus is high quality leads</li>
-                                        <li class="list__item">We work on CPA/ CPL (SOI and DOI) </li>
-                                        <li class="list__item">Our top GEOs are Europe Tier1</li>
-                                        <li class="list__item">Always ready to assist for mutual development</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+                
+                <div class="item_parthners">
+                    <p class="font-phetsarath w400" style="font-style: normal;
+                    font-weight: bold;
+                    font-size: 72px;
+                    line-height: 58px;
+                    text-transform: uppercase;                    
+                    color: #000000;
+                    ">
+                        
+                   F<span style="font-style: normal;
+                   font-weight: bold;
+                   font-size: 48px;
+                   line-height: 80.01%;     
+                   text-transform: uppercase;                   
+                   color: #000000;">o</span>R
+                    </p>
+                    <p class="font-phetsarath w400" style="font-style: normal;
+                    font-weight: bold;
+                    font-size: 72px;
+                    line-height: 58px;
+                    text-transform: uppercase;
+                    
+                    color: #067A0F;">
+                        publishers
+                    </p>
+                    <hr style="
+                     width: 110px;
+                        height: 0px;
+                        border: 1px solid #067A0F;
+                        transform: rotate(90deg);
+                        margin-top: 20%;
+                        margin-left: -7%;"
+                    
+                    >
+                    <p style="font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 26px;
+                    margin-top: -12%;
+                    padding-left: 30px;
+                    color: #000000;">
+                        Maximize your revenues with experts<br>
+                        We work on CPM / CPC models<br>
+                        We can buy traffic on regular basis<br>
+                        We are interested in true collaboration that elevate each
+                        party<br>
+                        We look for different kind of traffic for various
+                        verticals
+                        Work with direct buyers<br>
+
+                    </p>
+                </div>   
+                     
+              </div>
+            
             </section>
 
             <section class="contacts js-visible" id="contacts">
+                <h4 class="font-phetsarath w400 todoTitle wow animate__animated animate__fadeInUp" style="
+                color:#000000;
+                padding-left: 10%; 
+                padding-top:3%;
+                text-shadow: none;">
+                    Contact Us
+                </h4>
+                <div style="
+                    width: 260px;
+                    height: 0px;
+                    margin-left: 10%;
+                    margin-top:-20px;
+                    border: 1px solid #067A0F;
+                    transform: rotate(-0.31deg);
+                    "></div>
                 <div class="flex-container flex-container--space-between">
-                    <!-- <div class="contact__side wow animate__animated animate__zoomIn">
-                        <h6 class="title">Contact us</h6>        
-                        <p>
-                            We are committed to providing our partners with exceptional service. Please contact us to discuss details.
-                        </p>               
-                    </div> -->
-                    <h4 class="todoTitle wow animate__animated animate__fadeInUp">
-                        Contact us
-                    </h4>
+             
+                   
+                    
                     <div class="contact__side">
 
 
 
                         <div class="flex-container flex-container--space-between">
 
-                            <div class="flex-container__part wow animate__animated animate__backInLeft">
+                            <div class="flex-container__part wow animate__animated animate__backInLeft" style="margin-left: 5%;">
                                 <div class="container">
-                                    <img src="img/set_23_icon.png" alt="email">
+                                    <img src="img/send_email.png" alt="email" >
                                 </div>
 
 
                             </div>
 
 
-                            <div class="flex-container__part wow animate__animated animate__backInRight">
-                                <p>
+                            <div class="flex-container__part wow animate__animated animate__backInRight" style="    margin-right: 5%;">
+                                <p class="font-petrona w400" style="font-style: normal;
+                                font-weight: normal;
+                                font-size: 36px;
+                                line-height: 32px;
+                                text-align: center;
+                                text-transform: uppercase;
+                                
+                                color: #F5F5F5;">
                                     We are committed to providing our partners with exceptional service.
                                 </p>
-                                <p> Please contact us to discuss details.</p>
+                                <p style="font-style: normal;
+                                font-weight: normal;
+                                font-size: 29px;
+                                line-height: 88.3%;                                
+                                text-align: center;
+                                text-transform: capitalize;
+                                
+                                color: #000000;
+                                "> Please contact us to discuss details.</p>
                             </div>
 
 
@@ -309,6 +451,7 @@
 
                     <p class="form__success js-form-success">Thank You! We will reply you soon!</p>
                 </div>
+            </section>
         </div>
         </section>
 
@@ -393,6 +536,7 @@
     <script>
         new WOW().init();
     </script>
+
 
 </body>
 
