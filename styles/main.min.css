@@ -1995,7 +1995,7 @@ h4.todoTitle {
         font-size: 24px;
     }
     .hero p {
-        font-size: 7em;
+        font-size: 6em;
     }
     .hero p span {
         font-size: .6em;
@@ -2141,7 +2141,7 @@ h4.todoTitle {
         font-size: 22px;
     }
     .hero p {
-        margin-left: 5%;
+        margin-left: 2%;
     }
     .hero p.third_header {
         line-height: 16px;
