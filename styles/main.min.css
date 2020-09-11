@@ -1477,8 +1477,8 @@ h4.todoTitle {
         height: 85vh ;
     }
     .item_about.first p {
-        font-size: 14px ;
-        line-height: 14px;
+        font-size: 24px ;
+        line-height: 24px;
     }
 }
 
@@ -1639,7 +1639,10 @@ h4.todoTitle {
         margin-top: -15%;
     
     }
-   
+    .item_about.first p {
+        font-size: 30px;
+        line-height: 30px;
+    }
 }
 
 @media screen and (min-height:2436px){
@@ -1651,6 +1654,10 @@ h4.todoTitle {
 @media screen and (min-height:2688px){
     .hero {
         height: 60vh;
+    }
+    .item_about.first p {
+        font-size: 30px;
+        line-height: 30px;
     }
 }
 @media screen and (min-height: 2732px){
