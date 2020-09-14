@@ -1768,45 +1768,50 @@ h4.todoTitle {
   
 }
 
-@media screen and (max-height:900px) and (max-width:1440px){
-    #about {
-        height: 70vh;      
+
+@media screen and (max-width:1536px){
+    .hero p {
+        font-size: 15em;
+        margin-top: -170px;
     }
+    .hero p.third_header {
+        line-height: 40px;
+    }
+    .item_about p {
+        font-size: inherit;
+    }
+    .item_about.first p {
+        font-size: 24px;
+        line-height: 24px;
+    } 
+  
+    .item_parthners_p3  {     
+        margin-top: -20%;
+    }
+    .item_parthners_p3.col2 {
+        margin-top: -16%;
+    }
+
+    h2.title--big {
+        margin-top: -30px;
+    }
+    
   
 }
-
-@media screen and (max-width:1280px){
+@media screen and (max-height:900px) and (max-width:1440px){
+    #about {
+        height: 90vh;      
+    }
     .hero p {
-        font-size: 11em;
-        margin-left: 31%;
-    }
-    .hero p span {
-        font-size: .8em;
-    }
-    .hero__link-wrapper {
-        margin-top: -8%;
-    }
-    .container_parthners {       
-        width: 90%;
-        margin-left: 5%;       
-    }
-    .item_parthners_p2 {       
-        font-size: 62px;
-    }
-    .item_parthners_p1 {        
-        font-size: 62px;
-        line-height: 62px;
-    }
-    .item_parthners_span1 {     
-        font-size: 38px;
-    }
-    #contacts .container img {      
-        width: 100%;
+        font-size: 12em;
+        margin-left: 35%;
     }
 }
+
+
 @media screen and (max-height:851px) and (max-width:1280px){
     #about {
-        height: 150vh;
+        height: 90vh;
         margin-top: 5vh;
     }
     .hero {
@@ -1814,16 +1819,48 @@ h4.todoTitle {
         height: 70vh;
 
     }
+    .hero p {
+        font-size: 10em;
+        margin-left: 38%;
+    }
+    .title--big1 {
+        font-size: 62px;
+        line-height: 62px;
+    }
+    h2.title--big {
+        margin-top: 0px;
+    }
+    .item_parthners_p2 {        
+        font-size: 52px;
+        line-height: 52px;        
+    }
+    .item_parthners_p1 {
+        line-height: 62px;
+        font-size: 62px;
+    }
+    .item_parthners_span1 {      
+        font-size: 38px;
+    }
+    .hr_parthners {       
+        margin-left: -10%;
+    }
 }
 @media screen and (max-width:1200px){
     .title--big1 {
        line-height: 72px;
        padding-top: 20%;
     }
+    h2.title--big {
+        font-size: 26px;
+    }
 }
 @media screen and (max-width:1125px){
     .hr_parthners { 
         margin-left: -9%;
+    }
+    .item_about.first p {
+        font-size: 22px;
+        line-height: 22px;
     }
 }
 
@@ -1845,26 +1882,42 @@ h4.todoTitle {
     .subBtn {        
         padding-left: 30%;
     }
+    .hero p {
+        margin-left: 28%;
+    }
+    .hero p.third_header {
+        font-size: 30px;
+        line-height: 30px;
+        margin-left:56%
+    }
+    .title--big1 {
+        padding-top: 10%;
+    }
 }
 
 @media screen  and (max-width:1024px){
     .hero p {
         font-size: 10em;
-        margin-top:-140px
+        margin-top:-140px;
+       margin-left: 28%;
     }
-    .title--big1 {
-        margin-top: 0px;
-        padding-top: 80px;
-    }
+   
     .item_about.first p {
-        font-size: 24px ;
-        line-height: 24px ;
+        font-size: 20px ;
+        line-height: 20px ;
     }
-    #about {
-        height: 74vh ;
-    }
+  
     h2.title--big {
         margin-top: 30px;
+    }
+    .title--big1 {
+        padding-top: 5%;
+    }
+    .hr_parthners {
+        margin-left: -12%;
+    }
+    .navigation__link {
+        margin-right: 69px;
     }
 }
 @media screen and (max-height:600px) and (max-width:1024px){
@@ -1874,6 +1927,11 @@ h4.todoTitle {
     }
     .hero {
         margin-top: 0;
+    }
+}
+@media screen and (max-width:906px){
+    .hero p{
+        margin-left: 10%;
     }
 }
 @media screen and (max-width:828px){
@@ -1891,7 +1949,7 @@ h4.todoTitle {
         font-size: 14px;
     }
     .hero p {
-        margin-left: 15%;
+        margin-left: 5%;
     }
     .hero__link-wrapper {
         margin-top: 0;
@@ -1947,6 +2005,13 @@ h4.todoTitle {
     .subBtn {
         padding-left: 25%;
     }
+    .item_about.first p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    #partners {
+        padding: 0 0;       
+    }
 }
 @media screen  and (max-width:768px){
     .title--big1 {
@@ -1979,12 +2044,12 @@ h4.todoTitle {
     .emphasis_contacts {
         width: 230px;
     }
-    .item_about.first p {
-        font-size: 20px ;
-        line-height: 20px ;
-    }
+  
     .contact-anchor {      
         margin-left: 80vw;
+    }
+    .hr_parthners {
+        margin-left: -10%;        
     }
 }
 
@@ -2078,6 +2143,23 @@ h4.todoTitle {
     }
     .subBtn {
         padding-left: 20%;
+    }
+    .hr_parthners {
+        margin-left: -15%;        
+    }
+    .item_parthners_p3 {        
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .container_parthners {        
+        padding-left: 25px;
+    }
+    .item_about.first p {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .footer {        
+        padding-left: 30px;
     }
 }
 @media screen  and (max-width:540px){
@@ -2217,6 +2299,11 @@ h4.todoTitle {
         line-height: 42px;
         font-size: 42px;
     }
+    #about {
+        margin-top: 0;
+        height: 90vh;
+    }
+  
 }
 
 @media screen  and (max-width:415px){
