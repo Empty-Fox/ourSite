@@ -2474,7 +2474,7 @@ h2.title--big {
     }
 }
 
-@media screen and (max-height:750px){
+@media screen and (max-height:540px){
     section, #about {        
         height: 800px !important;
     }
