@@ -2378,6 +2378,21 @@ h4.todoTitle {
     .item_parthners_p3 {
         font-size: 14px;
     }
+    .hr_parthners {
+        margin-top: 18%;
+    }
+    .checkbox_wrapper label {
+        font-size: 12px;
+    }
+    .contact-anchor {
+        margin-left: 70vw;
+        width: 60px;
+        height: 60px;
+    }
+    .to-top:before {
+        
+        font-size: 1.7em;
+    }
 }
 @media screen and (max-width:280px){
     .language-toggler {
