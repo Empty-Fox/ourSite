@@ -1719,7 +1719,7 @@ h4.todoTitle {
         font-size: 310px;
     }
     #about {
-        height: 70vh;
+        height: 90vh;
     }
 }
 @media screen and (max-width:1601px){
@@ -1734,7 +1734,7 @@ h4.todoTitle {
         padding-left: 10%;
     }
     #about {
-        height: 70vh;
+        height: 90vh;
     }
   
 }
