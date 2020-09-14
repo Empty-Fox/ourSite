@@ -1714,9 +1714,7 @@ h4.todoTitle {
     h2.title--big {
         margin-top: -30px;
     }
-    .hero p {
-        font-size: 320px;
-        }
+    
   
 }
 
@@ -1730,7 +1728,9 @@ h4.todoTitle {
     .hero__link-wrapper {
         margin-top: -50px;
     }
-
+    .hero p {
+        font-size: 32px;
+        }
 }
 @media screen and (max-width:1601px){
     .hero p {
