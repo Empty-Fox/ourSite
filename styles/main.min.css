@@ -1723,14 +1723,14 @@ h4.todoTitle {
 }
 @media screen and (max-width:1601px){
     .hero p {
-        font-size: 320px;
-        margin-left:18%;
+        font-size: 300px;
+        margin-left:22%;
     }
     .hero p span {
-        font-size: 200px;
+        font-size: 180px;
     }  
     h2.title--big {       
-        padding-left: 0%;
+        padding-left: 10%;
     }
   
 }
