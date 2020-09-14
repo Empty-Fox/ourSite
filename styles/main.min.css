@@ -1731,15 +1731,15 @@ h4.todoTitle {
   
 }
 @media screen and (max-width:1601px){
-    /* .hero p {
-        font-size: 340px;
-    } */
-    .hero p span {
-        font-size: 240px;
-    }  
     .hero p {
-        font-size: 30px;
+        font-size: 320px;
+        margin-left:15%;
     }
+    .hero p span {
+        font-size: 220px;
+    }  
+
+  
 }
 @media screen and (max-width:1280px){
     .hero p {
