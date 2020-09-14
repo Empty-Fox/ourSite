@@ -1733,6 +1733,9 @@ h4.todoTitle {
     h2.title--big {       
         padding-left: 10%;
     }
+    #about {
+        height: 70vh;
+    }
   
 }
 
