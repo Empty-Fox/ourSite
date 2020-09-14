@@ -1911,7 +1911,7 @@ h4.todoTitle {
         margin-top: 30px;
     }
     .title--big1 {
-        padding-top: 5%;
+        padding-top: 15%;
     }
     .hr_parthners {
         margin-left: -12%;
@@ -1927,6 +1927,10 @@ h4.todoTitle {
     }
     .hero {
         margin-top: 0;
+    }
+    .hero {
+        margin-top: 120px;
+        height: 90vh;
     }
 }
 @media screen and (max-width:906px){
