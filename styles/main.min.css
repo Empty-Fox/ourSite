@@ -1728,9 +1728,7 @@ h4.todoTitle {
     .hero__link-wrapper {
         margin-top: -50px;
     }
-    .hero p {
-        font-size: 38px;
-    }
+  
 }
 @media screen and (max-width:1601px){
     .hero p {
@@ -1738,6 +1736,9 @@ h4.todoTitle {
     }
     .hero p span {
         font-size: 240px;
+    }  
+    .hero p {
+        font-size: 30px;
     }
 }
 @media screen and (max-width:1280px){
