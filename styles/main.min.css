@@ -1728,7 +1728,9 @@ h4.todoTitle {
     .hero__link-wrapper {
         margin-top: -50px;
     }
-  
+    .hero p {
+        font-size: 38px;
+    }
 }
 @media screen and (max-width:1601px){
     .hero p {
