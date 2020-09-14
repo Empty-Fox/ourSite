@@ -1704,7 +1704,7 @@ h4.todoTitle {
 @media screen and (max-width:1601px){
     .hero p {
         font-size: 320px;
-        margin-left:15%;
+        margin-left:18%;
     }
     .hero p span {
         font-size: 200px;
@@ -1750,7 +1750,7 @@ h4.todoTitle {
 @media screen and (max-width:1280px){
     .hero p {
         font-size: 11em;
-        margin-left: 30%;
+        margin-left: 31%;
     }
     .hero p span {
         font-size: .8em;
