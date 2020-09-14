@@ -1713,7 +1713,7 @@ h4.todoTitle {
     }
   
 }
-@media screen and (max-height:10510px) and (max-width:1681px){
+@media screen and (max-height:1051px) and (max-width:1681px){
     .hero p {
         font-size: 310px;
     }
