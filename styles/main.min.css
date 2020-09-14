@@ -2293,6 +2293,9 @@ h4.todoTitle {
     line-height: 32px;
     font-size: 32px;
 }
+h2.title--big {
+    padding-left: 10%;
+}
 .hero p {
     font-size: 5.5em;
 }
@@ -2457,9 +2460,21 @@ h4.todoTitle {
     .hero p.third_header {
         margin-left: 6%;
     }
+    h2.title--big {
+        padding-left: 10%;
+    }
+    .hero p.third_header {
+        margin-left: 26%;
+    }
+    .item_parthners_p3.col1 {
+        margin-top: -90px;
+    }
+    .item_parthners_p3.col2 {
+        margin-top: -60px;
+    }
 }
 
-@media screen and (max-height:540px){
+@media screen and (max-height:600px){
     section, #about {        
         height: 800px !important;
     }
