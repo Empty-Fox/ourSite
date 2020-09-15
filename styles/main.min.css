@@ -2760,6 +2760,9 @@ h4.todoTitle {
     section, #about {        
         height: 800px !important;
     }
+    .menu {
+        height: 110vh;
+    }
 }
 
 
