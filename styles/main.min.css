@@ -2762,6 +2762,12 @@ h4.todoTitle {
     }
 }
 
+@media screen and (max-height:600px){
+    #about {        
+        height: 100vh;
+    }
+}
+
 @media screen and (max-height:540px){
     section, #about {        
         height: 800px !important;
