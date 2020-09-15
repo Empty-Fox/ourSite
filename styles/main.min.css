@@ -2433,6 +2433,12 @@ h4.todoTitle {
         margin-left: 30%;
     }
 }
+@media screen and (max-width:451px){
+    .title--big1 {        
+        line-height: 32px;
+        font-size: 32px;
+    }
+}
 @media screen  and (max-width:415px){
     #myDIV {
         margin-left: 20%;
